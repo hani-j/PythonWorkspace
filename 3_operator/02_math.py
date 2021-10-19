@@ -14,4 +14,3 @@ number -= 2 # 16
 print(number)
 
 number %= 5 # 1
-print(number)
