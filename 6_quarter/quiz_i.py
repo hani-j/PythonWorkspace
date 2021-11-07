@@ -10,4 +10,4 @@ while index <= 50:
     print("[{0}] {1}번째 손님 (소요시간 : {2}분".format(check, index, time))
     check = " "
     index += 1
-print("총 탑승 승객 : {0} 분".format(count))    
+print("총 탑승 승객 : {0} 분".format(count))
