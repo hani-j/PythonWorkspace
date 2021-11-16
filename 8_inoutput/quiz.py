@@ -12,8 +12,9 @@
 i = 1
 while i <= 5:
     file = open("{0}주차.txt".format(i), "w", encoding="utf8")
+    file.write("- {0} 주차 주간보고 -\n".format(i))
     file.write("부서 :\n")
     file.write("이름 :\n")
     file.write("업무 요약 :\n")
-    file.close
+    file.close()
     i += 1
