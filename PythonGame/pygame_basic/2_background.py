@@ -10,12 +10,21 @@ screen = pygame.display.set_mode((screen_height, screen_height))
 # 화면 타이틀 설정
 pygame.display.set_caption("Nado Game") #게임 이름
 
+# 배경 이미지 불러오기
+background = pygame.image.load("C:/Users/gkdms/Desktop/코딩/Python/PythonWorkspace/PythonGame/pygame_basic/background.png")
+
 # 이벤트 루프
 running = True # 게임이 진행중인가?
 while running:
 	for event in pygame.event.get(): # 어떤 이벤트가 발생하였는가? # 무조건
 		if event.type == pygame.QUIT: # 창이 닫히는 이벤트가 발생하였는가?
 			running = False # 게임이 진행중이 아님
+
+	# screen.fill((0, 0, 255))
+	screen.blit(background, (0, 0))
+
+	# 매 프레임마다 화면을 새로 그려주는 동작을 해줘야 함
+	pygame.display.update() # 게임화면을 다시 그리기!
 
 # pygame 종료
 pygame.quit()
