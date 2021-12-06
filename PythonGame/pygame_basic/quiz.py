@@ -75,7 +75,7 @@ while running:
 				to_x = 0
 		
 	character_x_pos += to_x * dt
-	enemy_y_pos += 5
+	enemy_y_pos += 10
 
 	# 경계값 처리
 	if character_x_pos < 0:
