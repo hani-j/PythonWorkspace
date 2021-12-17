@@ -8,3 +8,5 @@ for ball_idx, ball_val in enumerate(balls):
 		if ball_val == weapon_val:
 			print("공과 무기가 충돌")
 			break
+	else :
+		continue
