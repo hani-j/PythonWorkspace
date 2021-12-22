@@ -1,2 +1,2 @@
 y, m, d = input().split('.')
-print(y, m, d, sep='-')
+print(d, m, y, sep='-')
