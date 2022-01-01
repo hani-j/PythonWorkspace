@@ -1,7 +1,7 @@
 n = input()
 
 if n == 'A':
-	print("best!!")
+	print("best!!!")
 elif n == 'B':
 	print("good!!")
 elif n == 'C':
