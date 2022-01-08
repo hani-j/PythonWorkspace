@@ -12,7 +12,7 @@ for i in range(1, 11):
 x = 2
 y = 2
 while True:
-	if t[x][y] == 2:
+	if t[x][y] == 2 or (x == 9 and y == 9):
 		t[x][y] = 9
 		break
 	t[x][y] = 9
